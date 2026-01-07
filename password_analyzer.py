@@ -12,7 +12,25 @@ def analyser_password(password):
     """
     # Je commence avec un score à 0
     score = 0
-    
+
     # Je vais stocker tous mes commentaires ici
     conseils = []
     
+     # ========== VÉRIFICATION 1 : LA LONGUEUR ==========
+    # Je compte combien de caractères il y a
+    longueur = len(password)
+    
+    # Si le mot de passe est long (12+ caractères) : super !
+    if longueur >= 12:
+        score = score + 40  # J'ajoute 40 points
+        conseils.append("✅ Longueur excellente (12+ caractères)")
+    
+    # Si entre 8 et 11 caractères : correct mais peut mieux faire
+    elif longueur >= 8:
+        score = score + 25  # J'ajoute 25 points
+        conseils.append("🟡 Longueur correcte, mais essayez 12+ caractères")
+    
+    # Si moins de 8 caractères : trop court !
+    else:
+        score = score + 10  # J'ajoute quand même 10 points
+        conseils.append("❌ Trop court ! Utilisez au moins 12 caractères")
