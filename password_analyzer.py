@@ -10,4 +10,9 @@ def analyser_password(password):
     """
     Cette fonction analyse un mot de passe et lui donne un score
     """
+    # Je commence avec un score à 0
+    score = 0
+    
+    # Je vais stocker tous mes commentaires ici
+    conseils = []
     
