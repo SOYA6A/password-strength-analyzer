@@ -76,3 +76,19 @@ def analyser_password(password):
         conseils.append("✅ Contient des chiffres")
     else:
         conseils.append("❌ Ajoutez des chiffres (0-9)")
+        
+        # ========== VÉRIFICATION 5 : LES SYMBOLES ==========
+    # Je vérifie s'il y a des caractères spéciaux (!, @, #, etc.)
+    symboles = "!@#$%^&*(),.?:{}|<>_-+=[]\\/"
+    a_des_symboles = False
+    
+    for caractere in password:
+        if caractere in symboles:
+            a_des_symboles = True
+            break
+    
+    if a_des_symboles:
+        score = score + 15
+        conseils.append("✅ Contient des symboles")
+    else:
+        conseils.append("❌ Ajoutez des symboles (!@#$%...)")
