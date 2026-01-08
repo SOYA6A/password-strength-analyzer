@@ -62,3 +62,17 @@ def analyser_password(password):
         conseils.append("✅ Contient des minuscules")
     else:
         conseils.append("❌ Ajoutez des minuscules (a-z)")
+
+        # ========== VÉRIFICATION 4 : LES CHIFFRES ==========
+    # Je vérifie s'il y a au moins un chiffre (0, 1, 2, etc.)
+    a_des_chiffres = False
+    for caractere in password:
+        if caractere.isdigit():  # isdigit() vérifie si c'est un chiffre
+            a_des_chiffres = True
+            break
+    
+    if a_des_chiffres:
+        score = score + 15
+        conseils.append("✅ Contient des chiffres")
+    else:
+        conseils.append("❌ Ajoutez des chiffres (0-9)")
