@@ -48,3 +48,17 @@ def analyser_password(password):
         conseils.append("✅ Contient des majuscules")
     else:
         conseils.append("❌ Ajoutez des majuscules (A-Z)")
+
+        # ========== VÉRIFICATION 3 : LES MINUSCULES ==========
+    # Pareil mais pour les minuscules (a, b, c, etc.)
+    a_des_minuscules = False
+    for caractere in password:
+        if caractere.islower():  # islower() vérifie si c'est une minuscule
+            a_des_minuscules = True
+            break
+    
+    if a_des_minuscules:
+        score = score + 15
+        conseils.append("✅ Contient des minuscules")
+    else:
+        conseils.append("❌ Ajoutez des minuscules (a-z)")
