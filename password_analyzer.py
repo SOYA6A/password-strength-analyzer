@@ -34,3 +34,17 @@ def analyser_password(password):
     else:
         score = score + 10  # J'ajoute quand même 10 points
         conseils.append("❌ Trop court ! Utilisez au moins 12 caractères")
+        
+        # ========== VÉRIFICATION 2 : LES MAJUSCULES ==========
+    # Je vérifie s'il y a au moins une majuscule (A, B, C, etc.)
+    a_des_majuscules = False
+    for caractere in password:
+        if caractere.isupper():  # isupper() vérifie si c'est une majuscule
+            a_des_majuscules = True
+            break  # J'arrête de chercher, j'en ai trouvé une
+    
+    if a_des_majuscules:
+        score = score + 15
+        conseils.append("✅ Contient des majuscules")
+    else:
+        conseils.append("❌ Ajoutez des majuscules (A-Z)")
