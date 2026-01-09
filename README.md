@@ -1,7 +1,7 @@
 ## 🔐 Password Strength Analyzer
 Un outil simple pour analyser la force d'un mot de passe et obtenir des recommandations personnalisées.
 
-##📋 Description
+## 📋 Description
 Cet analyseur évalue la sécurité d'un mot de passe selon plusieurs critères:
 - Detection des mots de passe courants
 - La longeur (minimum 12 caractères)
