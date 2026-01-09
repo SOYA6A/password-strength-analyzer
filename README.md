@@ -10,4 +10,4 @@ Cet analyseur évalue la sécurité d'un mot de passe selon plusieurs critères:
 - Chiffres (0-9)
 - Symboles (!éç&à"-)
   
-Le script attribu un score sur 100 et fourit des conseils pour améliorer les securité 
+Le script attribu un score sur 100 et fourit des conseils pour améliorer les securité.
