@@ -13,3 +13,6 @@ Cet analyseur évalue la sécurité d'un mot de passe selon plusieurs critères:
 Le script attribu un score sur 100 et fourit des conseils pour améliorer les securité.
 ## Installation:
 cloner le repository
+
+git clone https://github.com/SOYA6A/password-strength-analyzer.git
+cd password-strength-analyzer
