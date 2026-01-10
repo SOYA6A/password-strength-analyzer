@@ -12,3 +12,4 @@ Cet analyseur évalue la sécurité d'un mot de passe selon plusieurs critères:
   
 Le script attribu un score sur 100 et fourit des conseils pour améliorer les securité.
 ## Installation:
+cloner le repository
