@@ -18,6 +18,7 @@ git clone https://github.com/SOYA6A/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
 comment ça fonctionne:
+copier coller la ligne de code dans le terminal 
 ```bash
 python3 password-strength-analyzer.py
 ```
