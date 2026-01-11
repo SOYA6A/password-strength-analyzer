@@ -17,3 +17,5 @@ cloner le repository (aucune dépendance requise python 3 uniquement)
 git clone https://github.com/SOYA6A/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
+comment ça fonctionne:
+python3 
