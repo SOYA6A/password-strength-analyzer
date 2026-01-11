@@ -19,5 +19,5 @@ cd password-strength-analyzer
 ```
 comment ça fonctionne:
 ```bash
-python3 
+python3 password-strength-analyzer.py
 ```
