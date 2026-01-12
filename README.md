@@ -37,3 +37,10 @@ python3 password_analyzer.py "spongebob123"
 ```
 
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/18c934b7-ecff-4793-affa-311105a4699d" />
+
+Mot de passe fort
+Resultat:
+``` password_analyzer.py "SpØngBØb!C#246"
+```
+<img width="783" height="503" alt="image" src="https://github.com/user-attachments/assets/3730f20a-03d3-4135-ab7b-909ca34b7ef1" />
+
