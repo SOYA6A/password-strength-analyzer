@@ -11,7 +11,7 @@ Cet analyseur évalue la sécurité d'un mot de passe selon plusieurs critères:
 - Symboles (!éç&à"-)
   
 Le script attribu un score sur 100 et fourit des conseils pour améliorer les securité.
-## Installation:
+##  📱Installation:
 cloner le repository (aucune dépendance requise python 3 uniquement)
 ```bash
 git clone https://github.com/SOYA6A/password-strength-analyzer.git
