@@ -40,7 +40,8 @@ python3 password_analyzer.py "spongebob123"
 
 Mot de passe fort
 Resultat:
-``` password_analyzer.py "SpØngBØb!C#246"
+``` bash
+ password_analyzer.py "SpØngBØb!C#246"
 ```
 <img width="783" height="503" alt="image" src="https://github.com/user-attachments/assets/3730f20a-03d3-4135-ab7b-909ca34b7ef1" />
 
