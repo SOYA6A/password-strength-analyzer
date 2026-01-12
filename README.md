@@ -20,7 +20,8 @@ cd password-strength-analyzer
 comment ça fonctionne:
 copier coller la ligne de code dans le terminal 
 ```bash
-python3 password-strength-analyzer.py
+python3 password_analyzer.py "MonMotsDePa$$£123"
 ```
 exemple:
+
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/18c934b7-ecff-4793-affa-311105a4699d" />
