@@ -30,7 +30,7 @@ python3 password_analyzer.py
 Le script vous demandera d'entrer un mot de passe.
 
 ## 📊 Exemples d'utilisation
-Mot de passe faible
+Mot de passe faible 🟠
 Résultat :
 ```bash
 python3 password_analyzer.py "spongebob123"
@@ -38,7 +38,7 @@ python3 password_analyzer.py "spongebob123"
 
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/18c934b7-ecff-4793-affa-311105a4699d" />
 
-Mot de passe fort
+Mot de passe fort 🟢
 Resultat:
 ``` bash
  password_analyzer.py "SpØngBØb!C#246"
