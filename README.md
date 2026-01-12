@@ -65,8 +65,8 @@ Complexité :
 - 🔴 **0-39 points** : Mot de passe TRÈS FAIBLE
 
 ### 💡 Bonnes pratiques
--✅ Utilisez au minimum 12 caractères
--✅ Mélangez majuscules, minuscules, chiffres et symboles
--✅ Évitez les mots du dictionnaire et informations personnelles
--✅ Activez l'authentification à deux facteurs (2FA)
--✅ Un mot de passe unique par compte
+- ✅ Utilisez au minimum 12 caractères
+- ✅ Mélangez majuscules, minuscules, chiffres et symboles
+- ✅ Évitez les mots du dictionnaire et informations personnelles
+- ✅ Activez l'authentification à deux facteurs (2FA)
+- ✅ Un mot de passe unique par compte
