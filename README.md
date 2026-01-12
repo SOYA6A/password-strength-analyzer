@@ -45,3 +45,21 @@ Resultat:
 ```
 <img width="783" height="503" alt="image" src="https://github.com/user-attachments/assets/3730f20a-03d3-4135-ab7b-909ca34b7ef1" />
 
+## 🎯 Critères de notation
+
+**Longueur du mot de passe :**
+- 12+ caractères : 40 points
+- 8-11 caractères : 25 points  
+- Moins de 8 caractères : 10 points
+
+**Complexité :**
+- Majuscules (A-Z) : 15 points
+- Minuscules (a-z) : 15 points
+- Chiffres (0-9) : 15 points
+- Symboles (!@#$%...) : 15 points
+
+### Niveaux de sécurité
+- 🟢 **80-100 points** : Mot de passe FORT
+- 🟡 **60-79 points** : Mot de passe MOYEN
+- 🟠 **40-59 points** : Mot de passe FAIBLE
+- 🔴 **0-39 points** : Mot de passe TRÈS FAIBLE
