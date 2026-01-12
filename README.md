@@ -17,11 +17,23 @@ cloner le repository (aucune dépendance requise python 3 uniquement)
 git clone https://github.com/SOYA6A/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
-comment ça fonctionne:
-copier coller la ligne de code dans le terminal 
+
+💻 Utilisation
+Méthode simple
 ```bash
 python3 password_analyzer.py "MonMotsDePa$$£123"
 ```
-## 📊 Exemples d'utilisation:
+Mode interactif
+```
+python3 password_analyzer.py
+```
+Le script vous demandera d'entrer un mot de passe.
+
+## 📊 Exemples d'utilisation
+Mot de passe faible
+Résultat :
+```bash
+python3 password_analyzer.py "spongebob123"
+```
 
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/18c934b7-ecff-4793-affa-311105a4699d" />
