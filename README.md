@@ -52,7 +52,7 @@ Longueur du mot de passe :
 - 8-11 caractères : 25 points  
 - Moins de 8 caractères : 10 points
 
-## Complexité :
+### Complexité :
 - Majuscules (A-Z) : 15 points
 - Minuscules (a-z) : 15 points
 - Chiffres (0-9) : 15 points
