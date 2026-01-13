@@ -47,7 +47,7 @@ Resultat:
 
 ## 🎯 Critères de notation
 
-Longueur du mot de passe :
+### Longueur du mot de passe :
 - 12+ caractères : 40 points
 - 8-11 caractères : 25 points  
 - Moins de 8 caractères : 10 points
